@@ -1,0 +1,23 @@
+git-clone
+
+<repository>  <directory>
+
+--local/--no-local/--no-hardlinks
+objects are hardlinked, this can save disk space,
+Shared and it is safe to move/remove/modify original
+repository.
+
+--shared/--reference <repository>
+like Symbolic link, not safe and it is not recommended
+to use this option
+
+--branch
+Instead of pointing the newlu created HEAD to the branch
+pointed by cloned repository's HEAD, point to <name> branch
+instead.
+
+--depth
+create a shallow clone with specified number of revisons.
+
+--bared/mirror
+Create a bared reporsitory.
