@@ -1,0 +1,18 @@
+git diff
+
+1. In default, it output differences between working tree and staging tree.
+
+2. --cached/--staged, it output difference between staging tree and commit  tree
+
+3. If you want to see differences between working tree and commit tree, you can use
+   git diff HEAD(or previous commits)
+
+4. --no-index
+  you can use it to compare any of two different files.
+
+5. git diff commit1 commit2 filename/git diff commit1..commit2 filename
+If you want to see what differences for a file since a commit, this is more
+than 'git log -p filename'
+
+6.
+

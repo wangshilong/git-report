@@ -1,0 +1,17 @@
+git-add
+
+This add changes between working tree and stage tree
+into stage state, in default, you can add modified file,
+newly created file.
+
+It will ignore .ignore file unless -f option is given.
+
+-i/--iteractive
+iteractive mode to add
+
+-p/--patch
+Interactively choose hunks of patch beteen index and the working
+tree and add them into index.
+
+-e/--edit
+Very flexible to edit patch.
