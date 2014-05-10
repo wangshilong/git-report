@@ -1,0 +1,33 @@
+--all
+     commit all stage changes
+-s
+     add singed-off-by tag
+-f
+     specify input file as new commit message
+--reset-author
+    reset patch author
+--author=
+-m/--message
+    add commit message
+--amend
+   amend existed commit.
+
+--file=<file>/-F <file>
+Take the commit message from the given file. Use - to read from
+the message from the standard input.
+
+-C/--resue-message=<commit>
+reuse an existed commit.
+
+-c/--reedit-message=<commit>
+reedit existed log message.
+
+--cleanup
+stripe/default
+whitespace-->this can keep # lines
+verbatim --->do not change messages at all
+
+--fixup=<commit>
+Construct commit message for use with rebase --autosquash,
+It is related to git-rebase.
+

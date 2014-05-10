@@ -1,0 +1,25 @@
+git-reset command tips:
+
+git reset <path> /opposite to git add <path>
+--patch/-p
+	interactively select chunks to reset.
+
+git reset [<mode>] [<commit>]
+  --soft
+  This dose not touch index file or working tree at all(but resets the head to <commit>)
+
+  --mixed
+ Reset commit to previous changes.
+
+  --hard
+ Everything will be reset to specified commit
+
+  --keep
+Useful example:
+ # git add <path>
+ # some operations
+ # you want to keep local changes but reset <path>
+ # git reset HEAD --keep
+ 
+
+
