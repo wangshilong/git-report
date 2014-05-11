@@ -1,0 +1,7 @@
+git-rm
+
+--cached
+ git rm index file.
+
+--force
+ override the up-to-date check.
