@@ -1,0 +1,11 @@
+git checkout commands
+
+ 1. -m/--merge
+    three way merging.
+
+ 1. git checkout -b|-B <new_branch> [<start point>]
+
+ 2. git checkout --detach [<branch>]
+    git checkout [--detach] <commit>
+
+ 3. git checkout [-p|--patch] [tree-ish] [--] <pathspec> ..
