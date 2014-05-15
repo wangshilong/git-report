@@ -1,0 +1,23 @@
+Git log command
+
+--follow
+ continue listing the history of a file beyond rename
+
+--full-diff
+ git log -p --full-diff <path>
+
+ -L <start>,<end>:<file>
+ -L :<regex>:<file>
+
+ <commit>..<commit>
+
+ --since=<date>
+ --until=<date>
+ --before=<date>
+ --after=<date>
+
+ --author=/--commiter=<>
+
+ --grep=""
+ --no-merges/--merges
+ --pretty
