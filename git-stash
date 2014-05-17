@@ -1,0 +1,35 @@
+Git stash
+
+1. You want to fast update your repository, you can do:
+
+ # git commit -a --m "local changes"
+ # git format-patch -1
+ # git reset --hard HEAD~1
+ # git pull
+ # git am 0001-*.patch --reject
+
+ # git stash
+ # git pull
+ # git stash pop
+ ------------------------->easier!!
+
+2. Interrupted workflow
+
+ # ....some changes....
+ # git checkout -b tmp
+ # git commit -a -m "message"
+ # git checkout master
+ # edit bug fix
+ # git commit -a -m "Fix in a hurry"
+ # git checkout tmp
+ # git reset --soft HEAD^
+ # ..continue..
+
+3. Testing partial commit
+
+ # hack some changes
+ # git add --patch foo
+ # git stash save --keep-index
+ # git commit -m "First part"
+ # git stash pop
+ # ....
