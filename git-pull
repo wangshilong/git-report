@@ -1,0 +1,6 @@
+git pull origin --no-commit --stat
+
+git pull --rebase
+	git fetch
+	git rebase
+---------------->this is useful for personal use
