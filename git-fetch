@@ -1,0 +1,7 @@
+git-fetch
+
+1.Git fetch only updates reporsitoy's info including new branches,tag. it dosen't
+checkout codes? don't merge
+
+2.git-fetch can resolve differences between local and remote repository
+You can use this command to sync your remote codes with you.
