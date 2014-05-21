@@ -1,0 +1,24 @@
+Git push command
+
+1.push an existing repository from the command line
+  git remote add origin https://github.com/wangshilong/xfstests.git
+  git push -u origin master
+
+2.push all local updates into remote repositoy
+  git push origin --all
+  git push origin --all --prune
+
+3.delete a remote repository
+  git push origin --delete ....
+  git push origin :test
+
+4. push all the things
+  git push origin --mirror
+
+--------------cut here------------------
+Some useful examples
+
+1.git push origin +dev:master/git push origin -f dev:master
+
+2.Just create a remote branch:
+  git push origin master:refs/heads/test123
