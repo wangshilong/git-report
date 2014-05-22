@@ -1,0 +1,15 @@
+Example:
+
+1. Add a new remote, fetch and check out a branch from it
+
+git remote add david http://github.com/kdave/btrfs-progs.git
+git remote
+git fetch staging
+git checkout -b david david/integration-XXXX
+
+2. Imitate git clone but track only selected branches
+git remote add -f -t master -m master origin [URL]
+
+3. prune all stale remote-tracking
+
+4. update
