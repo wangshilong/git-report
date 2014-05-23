@@ -1,0 +1,15 @@
+git short-log
+
+This is a very useful command.
+--numbered
+-s/--summary
+--email
+<revision range>
+[--] <path> ...
+
+Example
+
+1. See how much people contributes to btrfs
+   git short-log --numbered --summary fs/btrfs
+
+.mailmap is a very intresting thing!
