@@ -1,0 +1,5 @@
+git-describe
+
+This is very useful command for adminstration, such for Linus
+He can see how much commit has been published, and descide it is
+time to publish another version
